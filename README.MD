@@ -1,6 +1,6 @@
-# Post-Verse is a simple RESTful web application built using **Node.js**, **Express.js**, and **EJS** that demonstrates the implementation of CRUD operations following REST architecture.
+Post-Verse is a simple RESTful web application built using **Node.js**, **Express.js**, and **EJS** that demonstrates the implementation of CRUD operations following REST architecture.
 
-# The application allows users to create, view, edit, and delete posts through an intuitive web interface. It is designed as a beginner-friendly project to understand REST APIs, routing, middleware, server-side rendering, and form handling in Express.js.
+The application allows users to create, view, edit, and delete posts through an intuitive web interface. It is designed as a beginner-friendly project to understand REST APIs, routing, middleware, server-side rendering, and form handling in Express.js.
 
 ---
 
