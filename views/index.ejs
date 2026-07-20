@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram: Your one and only choice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>INSTAGRAM:Your one and only choice</h1>
+    <h4>Lets' create memory together</h4>
+    <% for(post of posts){%>
+        <div class="post">
+            <div>
+                <img src="<%=post.image%>" alt="my name" style="height: 200px; width: 200px;">
+            </div>
+            <div class="info">
+                <h3 class="user">@<%=post.username%></h3>
+                <h4 class="content"><%=post.content%></h4>
+                <a href="http://localhost:8080/posts/<%=post.id%>">See in detail</a>
+                <a href="http://localhost:8080/posts/<%=post.id%>/edit">Edit</a>
+                <form method="post" action="http://localhost:8080/posts/<%=post.id%>?_method=DELETE">
+                    <button>Delete</button>
+                </form>
+            </div>
+        </div>
+    <%}%>
+    <br>
+    <a href="http://localhost:8080/posts/new">Create new post</a>
+</body>
+</html>

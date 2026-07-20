@@ -1,0 +1,17 @@
+h1{
+    color: blueviolet;
+}
+
+.post{
+    background-color: rgb(211, 146, 193);
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0px;
+    display: flex;
+}
+.info{
+    margin-left: 10px;
+}
+.user{
+    font-style: italic;
+}
